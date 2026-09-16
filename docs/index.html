@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SATAG: Superposition-Aware Temporal Audio Generation. Listen to temporally controlled audio, explore overlapping sound events, and compare generation methods.">
+  <meta name="theme-color" content="#176a60">
+  <title>SATAG · Superposition-Aware Temporal Audio Generation</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="samples.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M3 12v4m5-9v14m6-19v24m6-19v14m5-9v4"/></svg>SATAG</a>
+      <div class="nav-links"><a href="#examples">Audio examples</a><a href="#dataset">AudioCaps-T</a><a href="#comparison">Comparison</a><a href="#method">Method</a><a href="https://github.com/julv0207/SATAG" target="_blank" rel="noopener">GitHub ↗</a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="page-title">
+      <p class="eyebrow"><span class="status-dot"></span> AUDIO GENERATION · RESEARCH DEMO</p>
+      <h1 id="page-title"><span class="hero-name">SATAG</span>Superposition-Aware<br>Temporal Audio Generation</h1>
+      <p class="hero-description">Generate overlapping sound events with explicit timing<br class="desktop-break"> and event-level mixing control. No additional training.</p>
+      <p class="authors">JinHyeong Kim<span>·</span>DongHwan Jang<span>·</span>Ji-Hwan Kim</p>
+      <p class="affiliation">Sogang University, Seoul, Republic of Korea</p>
+      <div class="hero-actions"><a class="button primary" href="#examples"><span aria-hidden="true">▶</span> Listen to examples</a><a class="button" href="assets/SATAG-draft.pdf" target="_blank" rel="noopener">Paper <span class="draft-label">Draft</span> ↗</a><a class="button" href="https://github.com/julv0207/SATAG" target="_blank" rel="noopener">Code ↗</a></div>
+      <div class="hero-summary"><span>Training-free inference</span><span>Event-level timestamps</span><span>Waveform superposition</span></div>
+    </section>
+
+    <section class="overview wrap narrow" aria-labelledby="overview-title">
+      <h2 id="overview-title">Distinct events. Shared moments.</h2>
+      <p>Temporally controllable text-to-audio models specify <em>when</em> a sound occurs. When several sounds overlap, however, individual events may disappear, fuse together, or lose their intended timing. SATAG detects overlap in the input conditions, generates event-specific waveforms with a fixed pretrained model, and combines them through acoustic superposition. Without overlap, it retains the original generation procedure.</p>
+    </section>
+
+    <section class="section wrap" id="examples" aria-labelledby="examples-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / LISTEN TO THE PROBLEM</p><h2 id="examples-title">When sound events overlap</h2></div><span class="figure-label">Figure 1</span></div>
+      <p class="section-intro">The same event pairs, under different temporal conditions. Listen for both sounds and follow their requested intervals.</p>
+      <div class="listening-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 14v-3a8 8 0 0 1 16 0v3M4 12H3v8h4v-8H4zm16 0h1v8h-4v-8h3z"/></svg><span>Headphones recommended. Playing an example pauses any other audio.</span></div>
+      <div class="figure-grid" id="figure-grid"></div>
+      <p class="caption"><strong>Figure 1.</strong> DegDiT joint-generation examples. These supplied figure clips are silenced outside the union of the specified event intervals; they illustrate overlap behavior, not unprocessed temporal-boundary performance. Red and yellow boxes in the non-overlap spectrograms mark the two target events.</p>
+    </section>
+
+    <section class="dataset-section" id="dataset" aria-labelledby="dataset-title"><div class="wrap section">
+      <div class="section-heading"><div><p class="eyebrow">02 / THE DATASET</p><h2 id="dataset-title">AudioCaps-T: event descriptions with time</h2></div><span class="figure-label">Qualitative examples</span></div>
+      <p class="section-intro">AudioCaps-T augments fine-grained AudioCaps descriptions with event-level onset and offset timestamps estimated by SpotSound. These author-selected examples let you hear how the predicted event intervals correspond to the source audio.</p>
+      <div class="dataset-process" aria-label="AudioCaps-T annotation process"><span>AudioCaps caption</span><i aria-hidden="true">→</i><span>Event descriptions</span><i aria-hidden="true">→</i><span>SpotSound timestamps</span></div>
+      <div class="dataset-grid" id="dataset-grid"></div>
+      <p class="caption"><strong>AudioCaps-T qualitative examples.</strong> The colored bars show automatically estimated event intervals, not manual ground-truth boundaries. These three clips were selected after listening as clear examples of useful temporal annotations; they illustrate annotation quality but do not constitute a dataset-wide accuracy measurement.</p>
+    </div></section>
+
+    <section class="comparison-section" id="comparison" aria-labelledby="comparison-title"><div class="wrap section">
+      <div class="section-heading"><div><p class="eyebrow">03 / SIDE-BY-SIDE LISTENING</p><h2 id="comparison-title">Same conditions. Two approaches.</h2></div></div>
+      <p class="section-intro">Compare joint generation with source-wise generation and waveform mixing.</p>
+      <div class="comparison-toolbar"><div><label for="pair-select">Event pair</label><select id="pair-select"><option value="keyboard-bird">Keyboard Typing + Bird Chirping</option><option value="speech-cat">Man Talking + Cat Meowing</option></select></div><fieldset class="overlap-control"><legend>Temporal overlap</legend><div class="segmented"><button type="button" data-overlap="0" aria-pressed="false">0%</button><button type="button" data-overlap="50" aria-pressed="true">50%</button><button type="button" data-overlap="100" aria-pressed="false">100%</button></div></fieldset></div>
+      <div id="comparison-content" aria-live="polite"></div>
+      <details class="setup"><summary>Sample details &amp; comparison protocol</summary><div><p>The baseline clips here are the original, unmasked <code>s00</code> outputs from the source example collection: DegDiT joint generation, epoch 90, CFG 4.0, 50 sampling steps. They are distinct from the masked Figure 1 clips above.</p><p>SATAG audio will be included when matched outputs are available. At 0% overlap, SATAG retains the baseline generation procedure. These qualitative clips are not the epoch-100 checkpoint used in the manuscript’s quantitative study.</p></div></details>
+    </div></section>
+
+    <section class="section wrap" id="method" aria-labelledby="method-title">
+      <div class="section-heading"><div><p class="eyebrow">04 / THE METHOD</p><h2 id="method-title">Built on acoustic superposition</h2></div><span class="figure-label">Figure 2</span></div>
+      <p class="section-intro">Keep the pretrained model. Change how overlapping events become a mixture.</p>
+      <figure class="framework"><img src="assets/satag-framework.png" alt="SATAG framework: detect overlap from event conditions. Non-overlapping events use joint generation; overlapping events use source-wise generation followed by waveform summation and normalization." loading="lazy" width="1094" height="532"><figcaption>Event conditions → overlap detection → source-wise generation → waveform superposition.</figcaption></figure>
+      <div class="method-grid"><article><span class="step">01</span><h3>Specify the events</h3><p>Describe each sound and assign its start and end times. SATAG checks whether the requested intervals overlap.</p></article><article><span class="step">02</span><h3>Generate the sources</h3><p>For overlapping conditions, generate event-specific waveforms with fixed model parameters, batched in parallel.</p></article><article><span class="step">03</span><h3>Control the mixture</h3><p>Sum the waveforms and apply global peak normalization. Optional relative weights control each event’s contribution.</p></article></div>
+      <div class="mixing-note"><span class="formula">x<sub>mix</sub> = ∑<sub>i</sub> r<sub>i</sub> x̃<sub>i</sub></span><div><h3>Event-level mixing control</h3><p>With specified mixing weights, normalize each source to a common peak reference before weighting and summation. The weights describe waveform amplitude, not a guaranteed perceived-loudness ratio.</p></div></div>
+    </section>
+
+    <section class="section wrap results-section" id="results" aria-labelledby="results-title">
+      <div class="section-heading"><div><p class="eyebrow">05 / EXPERIMENTS</p><h2 id="results-title">Temporal generation results</h2></div><span class="figure-label">Manuscript draft</span></div>
+      <p class="section-intro">DegDiT and SATAG, evaluated with identical event pairs and temporal conditions.</p>
+      <div class="table-scroll"><table><caption class="sr-only">Temporal generation performance from Table 1 of the supplied manuscript draft.</caption><thead><tr><th scope="col">Overlap</th><th scope="col">Method</th><th scope="col">Event Recall ↑</th><th scope="col">Onset MAE ↓</th><th scope="col">Offset MAE ↓</th></tr></thead><tbody><tr><th scope="row" rowspan="2">50%</th><td>DegDiT</td><td>0.5690</td><td>0.8138 s</td><td>1.1722 s</td></tr><tr class="ours-row"><td>SATAG <small>Ours</small></td><td><strong>0.8054</strong></td><td><strong>0.6980 s</strong></td><td><strong>1.0942 s</strong></td></tr><tr class="group-start"><th scope="row" rowspan="2">100%</th><td>DegDiT</td><td><strong>0.4407</strong></td><td>0.8225 s</td><td>0.8822 s</td></tr><tr class="ours-row"><td>SATAG <small>Ours</small></td><td>0.1513</td><td><strong>0.5380 s</strong></td><td><strong>0.6754 s</strong></td></tr></tbody></table></div>
+      <p class="caption">Event Recall is the mean number of events fully contained in their target intervals (0–2), not a percentage. MAE uses valid predicted intervals; samples without valid predictions are excluded. Bold marks the best value per overlap condition.</p>
+      <p class="result-note">In this draft, SATAG reduces temporal error at both overlap levels; Event Recall improves at 50% overlap and decreases at 100%. The lower MAE should be read alongside the recall result.</p>
+    </section>
+    <noscript><p class="wrap">Please enable JavaScript to display the audio examples and comparison controls.</p></noscript>
+  </main>
+  <footer class="wrap footer"><div><a class="brand" href="#">SATAG</a><p>Superposition-Aware Temporal Audio Generation</p></div><div><a href="https://github.com/julv0207/SATAG">Source code ↗</a><span>Layout inspired by <a href="https://control-audio.github.io/Control-Audio/">ControlAudio</a>.</span></div></footer>
+  <dialog id="image-dialog" aria-label="Enlarged mel spectrogram"><button class="dialog-close" type="button" aria-label="Close enlarged spectrogram">×</button><img id="dialog-image" alt=""><p id="dialog-caption"></p></dialog>
+</body>
+</html>

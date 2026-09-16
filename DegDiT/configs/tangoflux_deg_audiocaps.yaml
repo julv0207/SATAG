@@ -1,0 +1,52 @@
+paths:
+  train_file: ../AudioCapsT/dataset/AudioCapsT_train.json
+  val_file: ../AudioCapsT/dataset/AudioCapsT_valid.json
+  subset_file: ../AudioCapsT/dataset/AudioCapsT_test.json
+  audio_root_from: data/dataset
+  audio_root_to: data/AudioCaps
+  output_dir: runs/degdit
+  pretrained_repo: declare-lab/TangoFlux
+  pretrained_revision: 367005e963cb3a9fb2e03a46104d7de23e34ceea
+
+training:
+  seed: 42
+  num_train_epochs: 100
+  per_device_batch_size: 4
+  gradient_accumulation_steps: 1
+  num_workers: 8
+  learning_rate: 3.0e-4
+  num_warmup_steps: 400
+  adam_beta1: 0.9
+  adam_beta2: 0.95
+  adam_epsilon: 1.0e-8
+  weight_decay: 1.0e-2
+  max_grad_norm: 1.0
+  max_audio_duration: 10.0
+  sample_rate: 44100
+  checkpoint_every_epochs: 10
+  log_every_steps: 50
+  mixed_precision: "no"
+
+model:
+  num_layers: 6
+  num_single_layers: 18
+  in_channels: 64
+  attention_head_dim: 128
+  joint_attention_dim: 1024
+  num_attention_heads: 8
+  audio_seq_len: 215
+  max_duration: 10
+  uncondition: false
+  text_encoder_name: google/flan-t5-large
+  text_encoder_revision: 0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a
+  use_deg: true
+  deg_max_events: 32
+  deg_n_frames: 16
+  deg_n_layers: 4
+  use_text_encoder_for_events: true
+  use_relation_encoder: true
+
+tracking:
+  enabled: false
+  project: degdit-tangoflux
+  run_name: tangoflux-deg-audiocaps-100ep

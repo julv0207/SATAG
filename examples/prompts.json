@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dog_bird_equal",
+    "prompt": "Dog Barking from 2.24 to 6.97 and Bird Chirping from 2.24 to 6.97",
+    "events": [
+      {"type": "Dog Barking", "start": 2.24, "end": 6.97},
+      {"type": "Bird Chirping", "start": 2.24, "end": 6.97}
+    ]
+  },
+  {
+    "id": "dog_bird_7_3",
+    "prompt": "Dog Barking from 2.24 to 6.97 and Bird Chirping from 2.24 to 6.97, relative amplitude 7:3",
+    "events": [
+      {"type": "Dog Barking", "start": 2.24, "end": 6.97, "amplitude": 7},
+      {"type": "Bird Chirping", "start": 2.24, "end": 6.97, "amplitude": 3}
+    ]
+  }
+]

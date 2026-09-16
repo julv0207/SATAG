@@ -1,0 +1,117 @@
+[
+  {
+    "asset": "assets/fig1-keyboard-bird-0.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "sha256": "49b9880a1253d4239db5ee2d1d7ce13722f127aa7b68a90791ca15deab1eccec"
+  },
+  {
+    "asset": "assets/fig1-keyboard-bird-0.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "sha256": "21d25693d62e2512472da4eb99675d2d5934a2e521aaebc97d7aa898439bcfbc"
+  },
+  {
+    "asset": "assets/fig1-speech-cat-0.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "sha256": "88f84654c589e66af83ff1e7c671acee2d3c3b8f8413ded263854a10d24eeaa5"
+  },
+  {
+    "asset": "assets/fig1-speech-cat-0.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "sha256": "0bddb4b046a24aefc1ca51a97fd35518a821a8710cc8b9e388687e1c75ddb5dd"
+  },
+  {
+    "asset": "assets/fig1-keyboard-bird-50.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "sha256": "a675b9601a82d88b2184054364d8ea9186741be0a6828b87524fa61d7d59d015"
+  },
+  {
+    "asset": "assets/fig1-keyboard-bird-50.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "sha256": "0b9d289721173508416b61e920e8ca195f1671c6217a42456ab0687bb154b667"
+  },
+  {
+    "asset": "assets/fig1-speech-cat-100.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "sha256": "8bd635dab6ad3e358de745ab12ff31033f45cc7db89be65333cc9199fdb326b7"
+  },
+  {
+    "asset": "assets/fig1-speech-cat-100.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "sha256": "37c607dc641c44a232f4a3324092ac9805bc1b6223253734def20672f797f257"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-0.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "08e5c3355ea3cfaa897099f86023749bf7e03417a34825a7a947c7e7becd6ac4"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-0.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "a20b0671cdc0d085fe8e4835de19294f8aadf94ceef007252d38c9936266e1cd"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-50.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "8df16ba5366e2f91925292967ff8f58b437aef925b22cccd3b1baf717699cb4f"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-50.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "9beb7d2b38d02c9a5289a1bb0d890a57e3d0089d3fa2654a7e835a8510cf2880"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-100.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "795c6c108b8de3c3aeb57a791897e8e7d72c60ad634f5595cca24d6bf1c73c8d"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-100.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "01d82c95068f5b628cf71ad0d0f825514a0f1ebd93409a1c08a0fdc4431898f1"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-0.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "c40472e8d6035890975726d57514a0fe9e838137d8ad54f85bb03a42be02f58b"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-0.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "8ff574bcd6d8f84a70b242378f2535b9cb7c1fa08b3d5e92487fe92d04fca281"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-50.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "d971b37b0a627fc9c760df27c8fbede118600fb4741273f1ceb871389f73758d"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-50.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "2d2eece2c91d859819dd7ab58157df696b2c0706ce76d09c3885c8aa973871cc"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-100.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "2b105a3e06099177be14d04fbf64ae404bd526528cf1442d6ba10d4a8bcbc99f"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-100.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "58a0ddc07e9c23399e06df35963532e3f8e9fa4e1609236f2f6058e785432112"
+  },
+  {
+    "asset": "assets/audiocaps-t-4YMXgLFcR94.mp3",
+    "source": "AudioCaps_Duration_SpotSound_Qualitative_100.html",
+    "sha256": "92bfb863cde7ebc73553a1fa2ab95fb833d8036d2411b809c283d0b22a54e87c"
+  },
+  {
+    "asset": "assets/audiocaps-t-BMayJId0X1s.mp3",
+    "source": "AudioCaps_Duration_SpotSound_Qualitative_100.html",
+    "sha256": "29ee498ef5e0da85712e1d3bf01db0b63d9f1959d18e06f6900ab3fae20ccf09"
+  },
+  {
+    "asset": "assets/audiocaps-t-c6YJgZ3qzOw.mp3",
+    "source": "AudioCaps_Duration_SpotSound_Qualitative_100.html",
+    "sha256": "704ac45744f0c69ffdecd91bf792d9b38474bce4d0f1418d09c5cff38d7af86f"
+  }
+]
