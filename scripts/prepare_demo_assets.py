@@ -84,6 +84,47 @@ def main():
             "audio": extract(article.audio, stem, filename),
         })
 
+    filename = "음향 조절 예시.html"
+    soup = BeautifulSoup((args.source / filename).read_text(), "html.parser")
+    mixing = []
+    for stale_asset in assets.glob("mixing-pair-*-variant-*.*"):
+        stale_asset.unlink()
+    variant_metadata = [
+        (0, "Raw summation", "Source summation without peak normalization", None),
+        (2, "Main 7 : Background 3", "Source peak normalization followed by 7:3 weighting", [7, 3]),
+        (3, "Main 3 : Background 7", "Source peak normalization followed by 3:7 weighting", [3, 7]),
+    ]
+    source_pairs = soup.select("section.pair")
+    assert len(source_pairs) == 5, "Expected five amplitude-control event pairs"
+    published_pairs = [source_pairs[0], source_pairs[4]]
+    for pair_index, pair in enumerate(published_pairs, start=1):
+        names = [node.get_text(" ", strip=True) for node in pair.select("h2 strong")]
+        assert len(names) == 2
+        articles = pair.select("article")
+        assert len(articles) == 4
+        variants = []
+        for variant_index, (source_index, label, description, weights) in enumerate(variant_metadata, start=1):
+            article = articles[source_index]
+            stem = f"mixing-pair-{pair_index}-variant-{variant_index}"
+            variants.append({
+                "label": label,
+                "description": description,
+                "weights": weights,
+                "peak": float(article.select_one(".peak").get_text(" ", strip=True).split()[-1]),
+                "audio": extract(article.audio, stem, filename),
+                "image": extract(article.img, stem, filename),
+            })
+        mixing.append({
+            "id": f"mixing-pair-{pair_index}",
+            "main": names[0],
+            "background": names[1],
+            "inference_time": pair.select_one("h2 em").get_text(" ", strip=True),
+            "seed": 42,
+            "start": 2.24,
+            "end": 6.97,
+            "variants": variants,
+        })
+
     existing_path = docs / "samples.js"
     prefix = "window.SATAG_SAMPLES = "
     if existing_path.exists():
@@ -91,12 +132,12 @@ def main():
         connected = {sample["id"]: sample.get("satag") for sample in existing.get("comparisons", [])}
         for sample in comparisons:
             sample["satag"] = connected.get(sample["id"])
-    existing_path.write_text(prefix + json.dumps({"figure": figure, "dataset": dataset, "comparisons": comparisons}, indent=2) + ";\n")
+    existing_path.write_text(prefix + json.dumps({"figure": figure, "dataset": dataset, "comparisons": comparisons, "mixing": mixing}, indent=2) + ";\n")
     (assets / "provenance.json").write_text(json.dumps(provenance, indent=2) + "\n")
     pdf = pymupdf.open(args.source / "Template.pdf")
     pdf[1].get_pixmap(matrix=pymupdf.Matrix(2, 2), clip=pymupdf.Rect(33, 34, 580, 300)).save(assets / "satag-framework.png")
     (assets / "SATAG-draft.pdf").write_bytes((args.source / "Template.pdf").read_bytes())
-    print(f"Prepared {len(figure)} figure clips, {len(dataset)} AudioCaps-T clips, and {len(comparisons)} baseline clips in {docs}")
+    print(f"Prepared {len(figure)} figure clips, {len(dataset)} AudioCaps-T clips, {len(comparisons)} baseline clips, and {sum(len(pair['variants']) for pair in mixing)} mixing clips in {docs}")
 
 
 if __name__ == "__main__":

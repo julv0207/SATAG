@@ -341,5 +341,89 @@ window.SATAG_SAMPLES = {
       },
       "satag": null
     }
+  ],
+  "mixing": [
+    {
+      "id": "mixing-pair-1",
+      "main": "Dog Barking",
+      "background": "Bird Chirping",
+      "inference_time": "2.926s",
+      "seed": 42,
+      "start": 2.24,
+      "end": 6.97,
+      "variants": [
+        {
+          "label": "Raw summation",
+          "description": "Source summation without peak normalization",
+          "weights": null,
+          "peak": 1.202,
+          "audio": "assets/mixing-pair-1-variant-1.mp3",
+          "image": "assets/mixing-pair-1-variant-1.png"
+        },
+        {
+          "label": "Main 7 : Background 3",
+          "description": "Source peak normalization followed by 7:3 weighting",
+          "weights": [
+            7,
+            3
+          ],
+          "peak": 1.0,
+          "audio": "assets/mixing-pair-1-variant-2.mp3",
+          "image": "assets/mixing-pair-1-variant-2.png"
+        },
+        {
+          "label": "Main 3 : Background 7",
+          "description": "Source peak normalization followed by 3:7 weighting",
+          "weights": [
+            3,
+            7
+          ],
+          "peak": 1.0,
+          "audio": "assets/mixing-pair-1-variant-3.mp3",
+          "image": "assets/mixing-pair-1-variant-3.png"
+        }
+      ]
+    },
+    {
+      "id": "mixing-pair-2",
+      "main": "Car Horn Honking",
+      "background": "Waves Crashing",
+      "inference_time": "2.945s",
+      "seed": 42,
+      "start": 2.24,
+      "end": 6.97,
+      "variants": [
+        {
+          "label": "Raw summation",
+          "description": "Source summation without peak normalization",
+          "weights": null,
+          "peak": 1.191,
+          "audio": "assets/mixing-pair-2-variant-1.mp3",
+          "image": "assets/mixing-pair-2-variant-1.png"
+        },
+        {
+          "label": "Main 7 : Background 3",
+          "description": "Source peak normalization followed by 7:3 weighting",
+          "weights": [
+            7,
+            3
+          ],
+          "peak": 1.0,
+          "audio": "assets/mixing-pair-2-variant-2.mp3",
+          "image": "assets/mixing-pair-2-variant-2.png"
+        },
+        {
+          "label": "Main 3 : Background 7",
+          "description": "Source peak normalization followed by 3:7 weighting",
+          "weights": [
+            3,
+            7
+          ],
+          "peak": 1.0,
+          "audio": "assets/mixing-pair-2-variant-3.mp3",
+          "image": "assets/mixing-pair-2-variant-3.png"
+        }
+      ]
+    }
   ]
 };

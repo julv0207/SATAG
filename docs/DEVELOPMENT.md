@@ -44,6 +44,12 @@ The empty SATAG panel is intentional until real matched outputs are provided.
 - AudioCaps-T examples: `AudioCaps_Duration_SpotSound_Qualitative_100.html`, IDs
   `4YMXgLFcR94`, `BMayJId0X1s`, and `c6YJgZ3qzOw`. Audio is extracted verbatim;
   captions and SpotSound intervals are parsed from the same source file.
+- Mixing-control examples: `음향 조절 예시.html`, two published event pairs
+  (Dog Barking + Bird Chirping and Car Horn Honking + Waves Crashing) with three
+  conditions each: raw summation, main/background 7:3, and 3:7.
+  The no-user-ratio amplitude-normalized condition is intentionally excluded.
+  Audio, mel spectrograms, peak values, seed, overlap interval, and reported
+  per-pair inference times are extracted from the supplied source.
 - Framework image, manuscript, author names and Table 1: `Template.pdf`.
 - Structure reference: https://control-audio.github.io/Control-Audio/ .
   No reference-site text, generated audio, or model results have been copied.

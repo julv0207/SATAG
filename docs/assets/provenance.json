@@ -113,5 +113,65 @@
     "asset": "assets/audiocaps-t-c6YJgZ3qzOw.mp3",
     "source": "AudioCaps_Duration_SpotSound_Qualitative_100.html",
     "sha256": "704ac45744f0c69ffdecd91bf792d9b38474bce4d0f1418d09c5cff38d7af86f"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-1.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "b10976859f4cc5185036d77d3fc812a07b5e222c489786b3b7b97d233b0a8e32"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-1.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "e4e2dad19aa7ab3f870510f6f6058f9c4d6dea3d78641c0a9c4bd76415dbbf3f"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-2.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "333c44a439ce012f15999b104b34504f4a075a4c7a70ce90a735e8735c2d22cf"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-2.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "6e6e10cbeed6100f4c904d9431b4b871166c62df9c7e859974e2ab36a5f2330c"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-3.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "3d3c160a18329b98ba2d154b2d6135da18678cde6a939c1b778bc64f5d4ad1a1"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-3.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "d8d8e5c073327f21d243f29622db92d11c6a964677a3a672c80861908ba62b62"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-1.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "09931971f2eae3d7caaf576f1d39a5cbcc1619e37c7e42ffd7862c565d310218"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-1.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "ef9b9339ce84e32c36a48eb416eb2a006d1aef9e45089e7f79701bd9e7890e08"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-2.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "99ee19edf55ca8ab5d602c114c34b67e7502ef6a9da6fcb3d2b078d9d6f96d48"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-2.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "c704bce354ce2aa872238b7f8f86e58f24d7b6fb0c9210fddbad3dee7bfd58f8"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-3.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "738355fada7e8007671d62aa25110789730cc79dccfdb3d7da81704825387882"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-3.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "37a70e8f025fcafefa5d791fab64e683c7e3558911e6b76e63b573e84d72c038"
   }
 ]

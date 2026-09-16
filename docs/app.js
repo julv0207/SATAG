@@ -17,6 +17,17 @@
   const datasetTimeline = sample => `<div class="dataset-timeline" role="img" aria-label="SpotSound event intervals for ${escape(sample.id)}">${sample.events.map((event, eventIndex) => `<div class="dataset-event"><div class="dataset-event-label"><span><i style="background:${datasetColors[eventIndex % datasetColors.length]}"></i>${escape(event.name)}</span><time>${datasetRanges(event)} s</time></div><div class="dataset-track">${event.intervals.map(([start, end]) => `<i style="left:${start / sample.duration * 100}%;width:${(end - start) / sample.duration * 100}%;background:${datasetColors[eventIndex % datasetColors.length]}"></i>`).join("")}<span class="playhead" aria-hidden="true"></span></div></div>`).join("")}<div class="timeline-axis" aria-hidden="true"><span>0 s</span><span>2</span><span>4</span><span>6</span><span>8</span><span>10 s</span></div></div>`;
   document.getElementById("dataset-grid").innerHTML = data.dataset.map((sample, index) => `<article class="dataset-card" id="dataset-${escape(sample.id)}"><div class="dataset-card-head"><span class="dataset-number">EXAMPLE ${String(index + 1).padStart(2, "0")}</span><code>${escape(sample.id)}</code></div><div class="dataset-caption"><span>AudioCaps caption</span><p>${escape(sample.caption)}</p></div>${datasetTimeline(sample)}${player(sample, `AudioCaps-T example ${sample.id}: ${sample.caption}`, "AudioCaps source audio · SpotSound timestamps")}</article>`).join("");
 
+  const mixingSelect = document.getElementById("mixing-pair-select");
+  mixingSelect.innerHTML = data.mixing.map(sample => `<option value="${escape(sample.id)}">${escape(sample.main)} + ${escape(sample.background)}</option>`).join("");
+  function renderMixing() {
+    const sample = data.mixing.find(item => item.id === mixingSelect.value) || data.mixing[0];
+    const container = document.getElementById("mixing-content");
+    container.querySelectorAll("audio").forEach(audio => audio.pause());
+    container.innerHTML = `<div class="mixing-condition"><div><span>Main event</span><strong>${escape(sample.main)}</strong></div><i aria-hidden="true">+</i><div><span>Background event</span><strong>${escape(sample.background)}</strong></div><p>100% overlap · ${sample.start.toFixed(2)}–${sample.end.toFixed(2)} s · seed ${sample.seed} · ${escape(sample.inference_time)}</p></div><div class="mixing-grid">${sample.variants.map(variant => `<article class="mixing-example-card"><div class="mixing-card-head"><h4>${escape(variant.label)}</h4><span class="peak-badge ${variant.peak > 1 ? "peak-warning" : ""}">Peak ${variant.peak.toFixed(3)}</span></div><p>${escape(variant.description)}</p>${spectrogram(variant, `${sample.main} and ${sample.background}: ${variant.label}`)}${player(variant, `${sample.main} and ${sample.background}, ${variant.label}`, variant.weights ? `Waveform weights ${variant.weights.join(":")}` : variant.label)}</article>`).join("")}</div>`;
+  }
+  renderMixing();
+  mixingSelect.addEventListener("change", renderMixing);
+
   let pair = "keyboard-bird";
   let overlap = 50;
   function renderComparison() {
@@ -46,7 +57,7 @@
   }, true);
   document.addEventListener("timeupdate", event => {
     if (!(event.target instanceof HTMLAudioElement)) return;
-    const scope = event.target.closest(".sample-card") || event.target.closest(".dataset-card") || event.target.closest("#comparison-content");
+    const scope = event.target.closest(".sample-card") || event.target.closest(".dataset-card") || event.target.closest(".mixing-example-card") || event.target.closest("#comparison-content");
     scope?.querySelectorAll(".playhead").forEach(head => {
       head.style.left = `${Math.min(100, event.target.currentTime / 10 * 100)}%`;
       head.style.opacity = event.target.currentTime > 0 ? "1" : "0";
