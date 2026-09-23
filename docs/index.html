@@ -13,7 +13,7 @@
   <script src="samples.js?v=85b7c8e731db" defer></script>
   <script src="overlap-samples.js?v=91839081cc70" defer></script>
   <script src="audiocaps-samples.js?v=20260923" defer></script>
-  <script src="app.js?v=20260923" defer></script>
+  <script src="app.js?v=20260923b" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -36,30 +36,25 @@
     <section class="figure-examples wrap" id="examples" aria-labelledby="examples-title">
       <h2 id="examples-title">Fig. 1 Audio Examples</h2>
       <p class="figure-intro">Listen to the examples in Fig. 1. Each row compares the same event pair across non-overlapping DegDiT, overlapping DegDiT, and overlapping SATAG outputs.</p>
-      <p class="figure-listening-note">Playing an example pauses the other audio.</p>
       <div id="figure-grid"></div>
     </section>
 
     <section class="overlap-section" id="comparison" aria-labelledby="comparison-title"><div class="overlap-wrap">
       <h2 id="comparison-title">Comparison Across Overlap Ratios</h2>
       <p class="overlap-intro">Compare DegDiT and SATAG at the same overlap ratio with identical requested event intervals.</p>
-      <p class="overlap-reference">The 0% column is the shared DegDiT baseline: SATAG retains the original generation procedure when events do not overlap.</p>
       <div id="comparison-content"></div>
-      <p class="overlap-caption">A and B follow the event order in each row. Colored bars show the requested intervals on a 0–10 s timeline. Click a spectrogram to enlarge it; playing a sample pauses any other audio.</p>
     </div></section>
 
     <section class="amplitude-section" id="amplitude" aria-labelledby="amplitude-title"><div class="wrap">
       <h2 id="amplitude-title">Relative Amplitude Control</h2>
       <p class="amplitude-intro">Adjust each event's contribution while keeping its timing fixed. Compare the same source pair with different relative amplitude weights.</p>
       <div id="mixing-content"></div>
-      <p class="amplitude-caption">The 7:3 and 3:7 conditions apply main/background weights after per-source peak normalization. These are waveform-amplitude weights, not perceived loudness ratios. Raw summation is an unnormalized reference, not the final SATAG output.</p>
     </div></section>
 
     <section class="dataset-section" id="dataset" aria-labelledby="dataset-title"><div class="wrap section">
       <h2 id="dataset-title">AudioCapsT Samples</h2>
       <p class="dataset-intro">AudioCapsT extracts sound events from AudioCaps captions and automatically estimates their onset and offset times with SpotSound.</p>
       <div class="dataset-grid" id="dataset-grid"></div>
-      <p class="caption">These are original AudioCaps recordings. Colored bars show automatically estimated event intervals in seconds, reviewed in human evaluation.</p>
     </div></section>
 
     <section class="bibtex-section wrap" id="bibtex" aria-labelledby="bibtex-title">
