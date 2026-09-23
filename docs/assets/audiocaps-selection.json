@@ -1,0 +1,71 @@
+{
+  "seed": 20260923,
+  "selection": "random.Random(seed).sample, without replacement, sorted CSV filenames and source row order",
+  "criteria": "decision == accurate and issues blank",
+  "total_rows": 1000,
+  "eligible_rows": 840,
+  "selected_ids": [
+    "hqtGOGfZaOI",
+    "2YmcQSvWAN8",
+    "GD4fETZRtSc",
+    "0j94maKQDLY",
+    "8nOUvamr2PE"
+  ],
+  "assets": [
+    {
+      "asset": "assets/audiocapst-hqtGOGfZaOI.mp3",
+      "source": "AudioCaps_Duration_SpotSound_Human_Evaluation_0401-0500.html",
+      "source_sha256": "3d2ad90e36be041815ee16f4fad7a40f1383f8360be83e3c8e3313efc34c8e94",
+      "evaluation_csv": "AudioCaps_Duration_SpotSound_Human_Evaluation_0401-0500_results.csv",
+      "evaluation_csv_sha256": "28a936b2ce3507901f86e892f2123138978b0017615cba23f7083a7802d3f721",
+      "evaluation_index": 436,
+      "decision": "accurate",
+      "issues": "",
+      "sha256": "6f6bbd8f12798a4e0ba52e9690908fed5796c4b697807f5e652ac6f9cabd1949"
+    },
+    {
+      "asset": "assets/audiocapst-2YmcQSvWAN8.mp3",
+      "source": "AudioCaps_Duration_SpotSound_Human_Evaluation_0301-0400.html",
+      "source_sha256": "433dc53012531bb1b193e45c6cf663d8ddadb2d82a3b23fe1f7a715847383e25",
+      "evaluation_csv": "AudioCaps_Duration_SpotSound_Human_Evaluation_0301-0400_results.csv",
+      "evaluation_csv_sha256": "9c065a472569921e077f4763731eb8c53c2bc6cf3c862ffd8c4beed18b14b294",
+      "evaluation_index": 316,
+      "decision": "accurate",
+      "issues": "",
+      "sha256": "d1dd37d023a121195c0c9113de2840ee6a9b7e5c993f6335a357254f5833757b"
+    },
+    {
+      "asset": "assets/audiocapst-GD4fETZRtSc.mp3",
+      "source": "AudioCaps_Duration_SpotSound_Human_Evaluation_0301-0400.html",
+      "source_sha256": "433dc53012531bb1b193e45c6cf663d8ddadb2d82a3b23fe1f7a715847383e25",
+      "evaluation_csv": "AudioCaps_Duration_SpotSound_Human_Evaluation_0301-0400_results.csv",
+      "evaluation_csv_sha256": "9c065a472569921e077f4763731eb8c53c2bc6cf3c862ffd8c4beed18b14b294",
+      "evaluation_index": 372,
+      "decision": "accurate",
+      "issues": "",
+      "sha256": "f607a93f4c0590ba64f41d9de0cdfb2199e1aa8752d071d23e4257e468c83310"
+    },
+    {
+      "asset": "assets/audiocapst-0j94maKQDLY.mp3",
+      "source": "AudioCaps_Duration_SpotSound_Human_Evaluation_0401-0500.html",
+      "source_sha256": "3d2ad90e36be041815ee16f4fad7a40f1383f8360be83e3c8e3313efc34c8e94",
+      "evaluation_csv": "AudioCaps_Duration_SpotSound_Human_Evaluation_0401-0500_results.csv",
+      "evaluation_csv_sha256": "28a936b2ce3507901f86e892f2123138978b0017615cba23f7083a7802d3f721",
+      "evaluation_index": 470,
+      "decision": "accurate",
+      "issues": "",
+      "sha256": "b57301523f42ea72a320f5b1d45ea55dee2c8ff5f6ed895d9a33105448a3806e"
+    },
+    {
+      "asset": "assets/audiocapst-8nOUvamr2PE.mp3",
+      "source": "AudioCaps_Duration_SpotSound_Human_Evaluation_0901-1000.html",
+      "source_sha256": "3f02a575020faae567007a2c7ac4e15ab8abe4751c070f52b7111d22c6e421a7",
+      "evaluation_csv": "AudioCaps_Duration_SpotSound_Human_Evaluation_0901-1000_results.csv",
+      "evaluation_csv_sha256": "8772011f43c449426a36d98af88a5455bf824f5be8f91e1e222dc7555fcd4562",
+      "evaluation_index": 963,
+      "decision": "accurate",
+      "issues": "",
+      "sha256": "875906e1ade27dc6376241428bd90219470dace300d23e1a27247ab0e2ad47c5"
+    }
+  ]
+}

@@ -1,0 +1,1082 @@
+[
+  {
+    "asset": "assets/baseline-keyboard-bird-0.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "08e5c3355ea3cfaa897099f86023749bf7e03417a34825a7a947c7e7becd6ac4"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-0.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "a20b0671cdc0d085fe8e4835de19294f8aadf94ceef007252d38c9936266e1cd"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-50.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "8df16ba5366e2f91925292967ff8f58b437aef925b22cccd3b1baf717699cb4f"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-50.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "9beb7d2b38d02c9a5289a1bb0d890a57e3d0089d3fa2654a7e835a8510cf2880"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-100.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "795c6c108b8de3c3aeb57a791897e8e7d72c60ad634f5595cca24d6bf1c73c8d"
+  },
+  {
+    "asset": "assets/baseline-keyboard-bird-100.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "01d82c95068f5b628cf71ad0d0f825514a0f1ebd93409a1c08a0fdc4431898f1"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-0.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "c40472e8d6035890975726d57514a0fe9e838137d8ad54f85bb03a42be02f58b"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-0.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "8ff574bcd6d8f84a70b242378f2535b9cb7c1fa08b3d5e92487fe92d04fca281"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-50.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "d971b37b0a627fc9c760df27c8fbede118600fb4741273f1ceb871389f73758d"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-50.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "2d2eece2c91d859819dd7ab58157df696b2c0706ce76d09c3885c8aa973871cc"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-100.mp3",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "2b105a3e06099177be14d04fbf64ae404bd526528cf1442d6ba10d4a8bcbc99f"
+  },
+  {
+    "asset": "assets/baseline-speech-cat-100.png",
+    "source": "AudioCaps_TalkMeow_TypeChirp_Times.html",
+    "sha256": "58a0ddc07e9c23399e06df35963532e3f8e9fa4e1609236f2f6058e785432112"
+  },
+  {
+    "asset": "assets/audiocaps-t-4YMXgLFcR94.mp3",
+    "source": "AudioCaps_Duration_SpotSound_Qualitative_100.html",
+    "sha256": "92bfb863cde7ebc73553a1fa2ab95fb833d8036d2411b809c283d0b22a54e87c"
+  },
+  {
+    "asset": "assets/audiocaps-t-BMayJId0X1s.mp3",
+    "source": "AudioCaps_Duration_SpotSound_Qualitative_100.html",
+    "sha256": "29ee498ef5e0da85712e1d3bf01db0b63d9f1959d18e06f6900ab3fae20ccf09"
+  },
+  {
+    "asset": "assets/audiocaps-t-c6YJgZ3qzOw.mp3",
+    "source": "AudioCaps_Duration_SpotSound_Qualitative_100.html",
+    "sha256": "704ac45744f0c69ffdecd91bf792d9b38474bce4d0f1418d09c5cff38d7af86f"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-1.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "b10976859f4cc5185036d77d3fc812a07b5e222c489786b3b7b97d233b0a8e32"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-1.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "e4e2dad19aa7ab3f870510f6f6058f9c4d6dea3d78641c0a9c4bd76415dbbf3f"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-2.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "333c44a439ce012f15999b104b34504f4a075a4c7a70ce90a735e8735c2d22cf"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-2.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "6e6e10cbeed6100f4c904d9431b4b871166c62df9c7e859974e2ab36a5f2330c"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-3.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "3d3c160a18329b98ba2d154b2d6135da18678cde6a939c1b778bc64f5d4ad1a1"
+  },
+  {
+    "asset": "assets/mixing-pair-1-variant-3.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "d8d8e5c073327f21d243f29622db92d11c6a964677a3a672c80861908ba62b62"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-1.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "09931971f2eae3d7caaf576f1d39a5cbcc1619e37c7e42ffd7862c565d310218"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-1.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "ef9b9339ce84e32c36a48eb416eb2a006d1aef9e45089e7f79701bd9e7890e08"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-2.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "99ee19edf55ca8ab5d602c114c34b67e7502ef6a9da6fcb3d2b078d9d6f96d48"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-2.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "c704bce354ce2aa872238b7f8f86e58f24d7b6fb0c9210fddbad3dee7bfd58f8"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-3.mp3",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "738355fada7e8007671d62aa25110789730cc79dccfdb3d7da81704825387882"
+  },
+  {
+    "asset": "assets/mixing-pair-2-variant-3.png",
+    "source": "\uc74c\ud5a5 \uc870\uc808 \uc608\uc2dc.html",
+    "sha256": "37a70e8f025fcafefa5d791fab64e683c7e3558911e6b76e63b573e84d72c038"
+  },
+  {
+    "asset": "assets/fig1-keyboard-bird-0.mp3",
+    "source": "Fig1 AudioFile/AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "source_article_index": 1,
+    "source_media_index": 0,
+    "sha256": "49b9880a1253d4239db5ee2d1d7ce13722f127aa7b68a90791ca15deab1eccec",
+    "processing": "Supplied audio is silenced outside the union of the requested event intervals.",
+    "standalone_source": "Fig1 AudioFile/\uc6d0\ubcf8 Wav/Brid Chirping Keyboard Typing 0 overlap.mp3",
+    "standalone_sha256": "e7bc67f7ae68017e66d0a409937e57b140e4146fc6f23d23219c8d3ea1b18b1d",
+    "standalone_matches": false
+  },
+  {
+    "asset": "assets/fig1-keyboard-bird-0.png",
+    "source": "https://github.com/julv0207/SATAG",
+    "source_revision": "603851800eea3e76795ef25c88036aa022cc7483",
+    "source_path": "docs/assets/fig1-keyboard-bird-0.png",
+    "display_crop": {
+      "top": 95,
+      "width": 1420,
+      "height": 603
+    },
+    "processing": "Original PNG bytes; CSS hides top numeric labels in thumbnail and enlarged viewer.",
+    "sha256": "21d25693d62e2512472da4eb99675d2d5934a2e521aaebc97d7aa898439bcfbc"
+  },
+  {
+    "asset": "assets/fig1-speech-cat-0.mp3",
+    "source": "Fig1 AudioFile/AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "source_article_index": 2,
+    "source_media_index": 0,
+    "sha256": "88f84654c589e66af83ff1e7c671acee2d3c3b8f8413ded263854a10d24eeaa5",
+    "processing": "Supplied audio is silenced outside the union of the requested event intervals.",
+    "standalone_source": "Fig1 AudioFile/\uc6d0\ubcf8 Wav/Man Talkng Cat meowing 0 overlap.mp3",
+    "standalone_sha256": "c40472e8d6035890975726d57514a0fe9e838137d8ad54f85bb03a42be02f58b",
+    "standalone_matches": false
+  },
+  {
+    "asset": "assets/fig1-speech-cat-0.png",
+    "source": "https://github.com/julv0207/SATAG",
+    "source_revision": "603851800eea3e76795ef25c88036aa022cc7483",
+    "source_path": "docs/assets/fig1-speech-cat-0.png",
+    "display_crop": {
+      "top": 95,
+      "width": 1420,
+      "height": 603
+    },
+    "processing": "Original PNG bytes; CSS hides top numeric labels in thumbnail and enlarged viewer.",
+    "sha256": "0bddb4b046a24aefc1ca51a97fd35518a821a8710cc8b9e388687e1c75ddb5dd"
+  },
+  {
+    "asset": "assets/fig1-keyboard-bird-50.mp3",
+    "source": "Fig1 AudioFile/AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "source_article_index": 0,
+    "source_media_index": 0,
+    "sha256": "a675b9601a82d88b2184054364d8ea9186741be0a6828b87524fa61d7d59d015",
+    "processing": "Supplied audio is silenced outside the union of the requested event intervals.",
+    "standalone_source": "Fig1 AudioFile/\uc6d0\ubcf8 Wav/Brid Chirping Keyboard Typing 50 overlap.mp3",
+    "standalone_sha256": "38a444feadd39bf44f60671417dafa405fbe6064105a5b34f45f2e0cbc4eeb03",
+    "standalone_matches": false
+  },
+  {
+    "asset": "assets/fig1-keyboard-bird-50.png",
+    "source": "https://github.com/julv0207/SATAG",
+    "source_revision": "603851800eea3e76795ef25c88036aa022cc7483",
+    "source_path": "docs/assets/fig1-keyboard-bird-50.png",
+    "display_crop": {
+      "top": 95,
+      "width": 1420,
+      "height": 603
+    },
+    "processing": "Original PNG bytes; CSS hides top numeric labels in thumbnail and enlarged viewer.",
+    "sha256": "0b9d289721173508416b61e920e8ca195f1671c6217a42456ab0687bb154b667"
+  },
+  {
+    "asset": "assets/fig1-speech-cat-100.mp3",
+    "source": "Fig1 AudioFile/AudioCaps_TalkMeow_TypeChirp_Muted_Mels.html",
+    "source_article_index": 3,
+    "source_media_index": 0,
+    "sha256": "8bd635dab6ad3e358de745ab12ff31033f45cc7db89be65333cc9199fdb326b7",
+    "processing": "Supplied audio is silenced outside the union of the requested event intervals.",
+    "standalone_source": "Fig1 AudioFile/\uc6d0\ubcf8 Wav/Man Talkng Cat meowing 100 overlap.mp3",
+    "standalone_sha256": "2b105a3e06099177be14d04fbf64ae404bd526528cf1442d6ba10d4a8bcbc99f",
+    "standalone_matches": false
+  },
+  {
+    "asset": "assets/fig1-speech-cat-100.png",
+    "source": "https://github.com/julv0207/SATAG",
+    "source_revision": "603851800eea3e76795ef25c88036aa022cc7483",
+    "source_path": "docs/assets/fig1-speech-cat-100.png",
+    "display_crop": {
+      "top": 95,
+      "width": 1420,
+      "height": 603
+    },
+    "processing": "Original PNG bytes; CSS hides top numeric labels in thumbnail and enlarged viewer.",
+    "sha256": "37c607dc641c44a232f4a3324092ac9805bc1b6223253734def20672f797f257"
+  },
+  {
+    "asset": "assets/fig1-keyboard-bird-satag-50.mp3",
+    "source": "Fig1 AudioFile/AudioCaps_TalkMeow_TypeChirp_SATAG_Muted_Mels.html",
+    "source_article_index": 2,
+    "source_media_index": 1,
+    "sha256": "c089680986f45a88ca06b8286534b32e542d3c10ad69e2f1dfdac2dec2fb7b06",
+    "processing": "Supplied audio is silenced outside the union of the requested event intervals.",
+    "standalone_source": "Fig1 AudioFile/\uc6d0\ubcf8 Wav/Keyboard Typing \u00d7 Bird Chirping \u00b7 50% SATAG ver.mp3",
+    "standalone_sha256": "c089680986f45a88ca06b8286534b32e542d3c10ad69e2f1dfdac2dec2fb7b06",
+    "standalone_matches": true
+  },
+  {
+    "asset": "assets/fig1-keyboard-bird-satag-50.png",
+    "source": "satag-typechirp-50.png",
+    "display_crop": {
+      "top": 95,
+      "width": 1420,
+      "height": 603
+    },
+    "processing": "Original PNG bytes; CSS hides top numeric labels in thumbnail and enlarged viewer.",
+    "sha256": "64a04b30da6eb40364fa6e5e38f9acc023938cb942345d162d120a01fea6c128"
+  },
+  {
+    "asset": "assets/fig1-speech-cat-satag-100.mp3",
+    "source": "Fig1 AudioFile/AudioCaps_TalkMeow_TypeChirp_SATAG_Muted_Mels.html",
+    "source_article_index": 5,
+    "source_media_index": 1,
+    "sha256": "4bdb4f708b1cec4992138f445b9e29fe22bb2460a5ff768381026b3ffd40ca45",
+    "processing": "Supplied audio is silenced outside the union of the requested event intervals.",
+    "standalone_source": "Fig1 AudioFile/\uc6d0\ubcf8 Wav/Man Talking \u00d7 Cat Meowing \u00b7 100% SATAG ver.mp3",
+    "standalone_sha256": "4bdb4f708b1cec4992138f445b9e29fe22bb2460a5ff768381026b3ffd40ca45",
+    "standalone_matches": true
+  },
+  {
+    "asset": "assets/fig1-speech-cat-satag-100.png",
+    "source": "satag-talkmeow-100.png",
+    "display_crop": {
+      "top": 95,
+      "width": 1420,
+      "height": 603
+    },
+    "processing": "Original PNG bytes; CSS hides top numeric labels in thumbnail and enlarged viewer.",
+    "sha256": "c2860c6f9a9f43740a38ac40be3a6cfa7555d32c12c9de1f7dabb9d3540b5739"
+  },
+  {
+    "asset": "assets/SATAG-draft.pdf",
+    "source": "SATAG 0923 \uc218\uc815\ubcf8.pdf",
+    "sha256": "417bb613e7f118dda1dbf860b7104846cd92b3fa80102cf6fd430431218afc91"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "DegDiT 0%",
+    "sha256": "3abac7605400a2de2d671306f8ebd7f49850e40108146853220a3883ac86288b"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "DegDiT 0%",
+    "sha256": "11693aca89ec738ac0ebf6e7b0a573694e5ec03f4e3065364f13eeb0a68074bc"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "DegDiT 50%",
+    "sha256": "87f9eb06ab31e0db195bcd4b2434a0a25b47bbe0600ae01ec20201e05e41835b"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "DegDiT 50%",
+    "sha256": "833f2a53708a62cbfdff06f0a3cf9e361bdb116b7137de5cb81fd7e24a3c619a"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "DegDiT 100%",
+    "sha256": "779c2b5759917eb8003b78217e325d1b41ffcc3cd654ed490b968a71ed0f3625"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "DegDiT 100%",
+    "sha256": "ab30b17a4343ff3e409fb9ae00cc3b59ba710a8af8be6f7c0d940b4ec5c88e29"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "SATAG 50%",
+    "sha256": "a5d4cdcd8fb95672708ce35cd5db2505c5ad7c08731ab0987ed746b4f9e4b6f1"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "SATAG 50%",
+    "sha256": "5d47a2dc6379d72831e60db580cc1feb7ae8c1aa7e461449d4a1545cf0e7f203"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "SATAG 100%",
+    "sha256": "1282bf8a86fbbe4d1450ffbb6fa536d0c5e8532b04296efe2af073e7d10b9026"
+  },
+  {
+    "asset": "assets/overlap-01664_bird_chirping__water_running-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "01664_bird_chirping__water_running",
+    "source_condition": "SATAG 100%",
+    "sha256": "3177fecd2866219787322b4827e491a8d7906af9d8a45c83dce3f966e30ce0d6"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "DegDiT 0%",
+    "sha256": "fffa5657bc94e715a28ae8de93dbd57106ced2374c9796261678568d55c00d31"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "DegDiT 0%",
+    "sha256": "466014e308c06d6cd249db44740803858b07cb7e1d49b1f6f26a6f0225bc178b"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "DegDiT 50%",
+    "sha256": "056d14a7d7673824a53b4c46518e8ae0bca94d251de7e5e2733bdc17046c7d58"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "DegDiT 50%",
+    "sha256": "8900f7faf6d72137d70deb3f6692baad17043ee7a1762712cd72d7f3fd78ed24"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "DegDiT 100%",
+    "sha256": "bb8376f501b740c48741272207ba0815ff6edb8e02212d5d44135b9afeb9edff"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "DegDiT 100%",
+    "sha256": "760ed5f077f8c18967088cab0eb1650809e4079af94818d0194fd92009ee6a89"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "SATAG 50%",
+    "sha256": "c3c1417d70a0257246a7143a8f1175b1151ccafea4da9c9550ef49916a0d704a"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "SATAG 50%",
+    "sha256": "8764d2af9fb525fac38ee69905d91ac46ab70f575db5c44c05d5d0c2026bfed3"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "SATAG 100%",
+    "sha256": "12c15d860961c723e52b36bf7ef44a46112c3cfb5dd611c470e0434e7b449533"
+  },
+  {
+    "asset": "assets/overlap-02525_baby_laughing__toilet_flushing-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02525_baby_laughing__toilet_flushing",
+    "source_condition": "SATAG 100%",
+    "sha256": "2d0386205f2198bab0a25d5c3166dbc9056fedc53e35b3bf19894871eafb183c"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "DegDiT 0%",
+    "sha256": "f771f686f8729cf5aae901564ae7875840172f9691c986620dc7a56616e5cb17"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "DegDiT 0%",
+    "sha256": "d9f6c4527bb22288b0f6f69df86b3f9aa67a12635f0db114ba13a203100ab19c"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "DegDiT 50%",
+    "sha256": "7cc80056d31601e530233009a1ef615c7236ad588d78e24a247e7c15543264f5"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "DegDiT 50%",
+    "sha256": "e10405d20bd6a8f9faa3e19363ec1b8bb7aa77c04f8081868476c5a3eac7fff4"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "DegDiT 100%",
+    "sha256": "f163281695de299bf881c93ef8f7961e744e013396224b1ec0370256ef9e9031"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "DegDiT 100%",
+    "sha256": "5928049e5aa34094e50d8ca19ae9077501a5e7958a08c3792098619b196a95c7"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "SATAG 50%",
+    "sha256": "5f1d9da2f69a69899246fcc391db004c307676e4da702113e05a3d3df47645ca"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "SATAG 50%",
+    "sha256": "18663bac9e92d224fd82c2228af83334025e86293eff74b2ea2b8455de8acd59"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "SATAG 100%",
+    "sha256": "6b25ff36416807ac95adcd188834a613fe402adee1dd2b01d2f4dfd210f875f2"
+  },
+  {
+    "asset": "assets/overlap-02712_car_honking__motorcycle_revving-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02712_car_honking__motorcycle_revving",
+    "source_condition": "SATAG 100%",
+    "sha256": "a8da3d968cb652a8b8e1a5cc0707df2f786c3ebe0801b3a2f1a0f6d6b295fcbe"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "DegDiT 0%",
+    "sha256": "00cf5b614ed4dd9d64323f914da2283303c4a0172fb4b4a46aabb1a539c5dfc8"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "DegDiT 0%",
+    "sha256": "387744ba0e28e1dec50ab1a800bf0ef651c4ad798c9c3d41201dbd1d1e6881dd"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "DegDiT 50%",
+    "sha256": "26166d560e8da4949cce0f72b4ca6fe1679e2f3f44ad4d0097b5f85cf7a5f7ea"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "DegDiT 50%",
+    "sha256": "0189753cf0a7762531a567c1fd585ba3eb9597db1f905c11975d570ea132b74d"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "DegDiT 100%",
+    "sha256": "f68ea90c1b8afb135520c503f5255866089c1ba7e622d74d0e36d4e7c3cf9088"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "DegDiT 100%",
+    "sha256": "781674d8fa7c1872c9bdfa529ca1269f37e5ac8407cc7fb23d753d0f02a6ea1d"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "SATAG 50%",
+    "sha256": "c2f2a0c263a5d23d862b20cff631b774c1f5678a8bed3a781a82cf0718a6a976"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "SATAG 50%",
+    "sha256": "474bf56e836ba0dd57d407592844112e3dc8352f1d4c2a3a55e957827d88964b"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "SATAG 100%",
+    "sha256": "e5a3ede1c9edbd8b1e464c4ffb5ed0b325641447f885dde4d70f478db237414b"
+  },
+  {
+    "asset": "assets/overlap-02733_car_honking__water_running-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "02733_car_honking__water_running",
+    "source_condition": "SATAG 100%",
+    "sha256": "5713ca4cceb262c092c75873696d3d1c51f4d72d056cbc496d3c03991b81333a"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "DegDiT 0%",
+    "sha256": "fe3fc4f14c9ff132f8561cae3db87245aac9e41304deb70434dc13c44f5e7635"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "DegDiT 0%",
+    "sha256": "3667c09ccbff4a9fba04891e2d46c596b2c2662d32ce197a9f2a073400fbc1aa"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "DegDiT 50%",
+    "sha256": "d13f05b22cdb1acf1af5c1357a3f6799e88dbbc494580cbee6635c7b5c605061"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "DegDiT 50%",
+    "sha256": "64b431dc3697c5645157bd27943fdf2cb25d3c53c5759979c5a82ba31db8243e"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "DegDiT 100%",
+    "sha256": "995558099f5577f077336019118a8a7f675b852f2085e5cfb31a10f2a4e49de2"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "DegDiT 100%",
+    "sha256": "ab6455ca57fe72772b6fe397b2e4c486c1d328f39b25f9ddcb5402ccb7abab6a"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "SATAG 50%",
+    "sha256": "ed8cad255f96442b7a42e2dcc5385ddb36dd073f899f828a88d2c190a281eea2"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "SATAG 50%",
+    "sha256": "4c2093b25b2853eb7a647f220cdcc4431eebf412c55698f00838447595e1a12a"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "SATAG 100%",
+    "sha256": "27304655392c4a6d7cf18756162625596ba71fb19ada361f91304128d5fd64b1"
+  },
+  {
+    "asset": "assets/overlap-03190_cat_meowing__child_talking-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03190_cat_meowing__child_talking",
+    "source_condition": "SATAG 100%",
+    "sha256": "699b4bb4d52adc205f8fae6265db35b05d24e5a27992b348310a770a743bace2"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "DegDiT 0%",
+    "sha256": "3b6be6fcd34cf00e8b998f16d90a2c91a14d6eabf2066bd6768ac1c09d0cacee"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "DegDiT 0%",
+    "sha256": "515dc3559634eaa450a522bb388d29740d3ab717ed14000d7869f593b56a64da"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "DegDiT 50%",
+    "sha256": "36d919061d65bdc80e7f1a81a23e3ee29eef67e9a949acc5cf755bad2e759e0b"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "DegDiT 50%",
+    "sha256": "e5b22397c4d0f57b9547a6c7f427f5089b52a0a35bdf7e55b8986e47518ad621"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "DegDiT 100%",
+    "sha256": "635860bf72192a39ee444680c5674b2f5eaa4e4729cbf2b5928a205198c25359"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "DegDiT 100%",
+    "sha256": "f0cff5e5d5235aa579750e621ec9e5fc3b596b1b4452e6f11b56da03a309eb91"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "SATAG 50%",
+    "sha256": "08410ec26fa249d9358255736894d0b990baae0c0c125450c4c744ab43e02cda"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "SATAG 50%",
+    "sha256": "e60fd824f52d5d94d88c9ebcbf0582166c6677fd18f16702cbe2c4456fc26ff5"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "SATAG 100%",
+    "sha256": "a71febb786cd9b0b02690c325f2251fce307a38ae0b258226c243346a200ac4c"
+  },
+  {
+    "asset": "assets/overlap-03821_child_talking__keyboard_typing-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "03821_child_talking__keyboard_typing",
+    "source_condition": "SATAG 100%",
+    "sha256": "b224345bf0271d544d9f2580f2eee2341785850345229ed6b1baa8e3f3d0777b"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "DegDiT 0%",
+    "sha256": "d86d0071702d6c428b75e7b3760a26357e782d1078f0e1b4893d23111bcc267c"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "DegDiT 0%",
+    "sha256": "72bb15e193ab5693966eb50c9e31072709d87c018d80913bc58cd45af5e4701d"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "DegDiT 50%",
+    "sha256": "cad10423fb246c115a5a279efd27f1a232a2e85851f89c17c34957fae4a53a44"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "DegDiT 50%",
+    "sha256": "eaae5e8f1019824b42cdd73a0f74c0c98639caa63a24e491770881fd864176c1"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "DegDiT 100%",
+    "sha256": "4588b1d34b5770eb85739bdc97180849a1151ce3fc9277606c509c289e86df6f"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "DegDiT 100%",
+    "sha256": "15224d4c7945839753f4c0cc3b7fb9f0b5296d4d3fe6ef3c256dfc976a0ec2e4"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "SATAG 50%",
+    "sha256": "4082b5454326b137cfd5dcdca12f850687980bd92f79d9648a0803656c319ce7"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "SATAG 50%",
+    "sha256": "64d208149810855cc0f21de328ce6ffa5137bfdc98a45cfe62229b782df2db3d"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "SATAG 100%",
+    "sha256": "0b83577bd7d11069fa666b353f5cce8a1aba2fb879a282e7c8b4e72ae6d81733"
+  },
+  {
+    "asset": "assets/overlap-04662_dog_howling__water_running-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "04662_dog_howling__water_running",
+    "source_condition": "SATAG 100%",
+    "sha256": "a0a77bb8342c7058fd450774428fdb56b04859ac67953fbc1bcc77bc2c23f57b"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "DegDiT 0%",
+    "sha256": "0a772a3f59ad51e4885ae40ea122612dd70b719e7a540999276103416c1ca3ea"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "DegDiT 0%",
+    "sha256": "d172bdfa9cb2ec1220dd44bd75f8b15d20ee1670e648a8bd638314339292c0a9"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "DegDiT 50%",
+    "sha256": "4e66f5b3dedb1192c65316e6330f8496378d1fd250c2608ca70bfad31fc6d444"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "DegDiT 50%",
+    "sha256": "d478060780f06f7b5a3a4b842e16a6fe13e708017d984e1fd25a9f78bbb32264"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "DegDiT 100%",
+    "sha256": "ac24844a21bf8bfd9432021d6c69797966bd1e1b8e0cefeb64adba2a023ff4d1"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "DegDiT 100%",
+    "sha256": "02da7e086d65583b1cd631632606bc831a5c6ae2366fe4cd80c512a804edc2ff"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "SATAG 50%",
+    "sha256": "0e5a583105b58a7a7b43fac63c3bc452352c0a190fe616902306fd97fe03cad2"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "SATAG 50%",
+    "sha256": "079e1a9371b7d84879d92a828672c13ce1830c398ba27f4f6b1b150845f5490d"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "SATAG 100%",
+    "sha256": "b63bbf8628a702aff47d0320b5352d4fb2845e415beb66e9d6a24aef4ffe8934"
+  },
+  {
+    "asset": "assets/overlap-09738_telephone_ringing__woman_giving_a_speech-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09738_telephone_ringing__woman_giving_a_speech",
+    "source_condition": "SATAG 100%",
+    "sha256": "b7183ca015dba24dc7094281c5c0942cb87b4d5c8d41b35e2f4b50075e6679e5"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "DegDiT 0%",
+    "sha256": "448ffe2e63af2ed680e7b45efed8a281aae7f8eb7b8bf806333d2ff061e240ff"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "DegDiT 0%",
+    "sha256": "ec28e897f1f8376c60a6e1e15125ec67d49f0beb80f1456552faef3838af5323"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "DegDiT 50%",
+    "sha256": "928b7ed8c9385c421ba4d97b0ea8747f39c69eee482cb1badef9604cdfd78f95"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "DegDiT 50%",
+    "sha256": "0ff7cb07f01cee537cfcb10190040ff8fd951e4b9513b043c2fc9de29f628761"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "DegDiT 100%",
+    "sha256": "05ebe9518157126fff121f523bcbb0960be8270a13ff3dd3f51f6921fe0abbaa"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "DegDiT 100%",
+    "sha256": "38b347133962475b155e530453df4fce818e14af7019e6aeee12d8713921d466"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "SATAG 50%",
+    "sha256": "9853d17a6a65ff16e05786a7ad6ad86f0b06daa99d37eea8f6bd948906dcd445"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "SATAG 50%",
+    "sha256": "ad445982c9196e8fb6ee33d3ef2bb359afae3737142d513c6677a9fc5178f307"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "SATAG 100%",
+    "sha256": "0064703e9f97ddd368290eb5fb7f94db68f2368db89b7fcf8c7498dd7f98918d"
+  },
+  {
+    "asset": "assets/overlap-08965_phone_ringing__water_pouring-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "08965_phone_ringing__water_pouring",
+    "source_condition": "SATAG 100%",
+    "sha256": "96976fea4054dacd8ad91cdfbace44292702b09404a12188e911f2993425251e"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-degdit-0.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "DegDiT 0%",
+    "sha256": "e1b8aedd34180c40e5a66fc5216df864de61b59660e7dfc877cedafb2b43cce3"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-degdit-0.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "DegDiT 0%",
+    "sha256": "a08247cac5c331e57a829ba6d2ea3e4d72600f0d894139a6a90dc978859b2e75"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-degdit-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "DegDiT 50%",
+    "sha256": "68c0e800437c1b5fbb94a1587ccd1d1d13d4781fc47dc90d34c462589f3019bd"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-degdit-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "DegDiT 50%",
+    "sha256": "1c897a7f80c0c0d436a085c42f24266f6c645b196e91485462644f3f5a44825f"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-degdit-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "DegDiT 100%",
+    "sha256": "5fa9f0ca7dd35dbc539a941e10f43c40b41d46bf76683a3b6a714f29bec54b68"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-degdit-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "DegDiT 100%",
+    "sha256": "11fd20b53e1368c698e79e1eeea42c51b0a5e59eb79b9d21769ea7c2e0a7c451"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-satag-50.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "SATAG 50%",
+    "sha256": "d68923d1dcb15bb28d1a658cffd14840e4b95ac4d18efeac1e541b42608b1e9a"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-satag-50.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "SATAG 50%",
+    "sha256": "0b71420a6dfdd9e54ebb551851fa4c9010de9e175bfb21a0fead0df031e23ea3"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-satag-100.mp3",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "SATAG 100%",
+    "sha256": "5c22693e47ee1e04f3426af20628a4bcdb9c0c8dc1afab9437e022ae71eadbc7"
+  },
+  {
+    "asset": "assets/overlap-09988_cat_meowing__rain_falling-satag-100.png",
+    "source": "Overlap_Comparison_10.html",
+    "source_sha256": "dfac83973cc117b9bc184600c1c651141ebf58b378defe89c1f90120303f49f3",
+    "source_pair_id": "09988_cat_meowing__rain_falling",
+    "source_condition": "SATAG 100%",
+    "sha256": "1555a66eb74b1392a3ca692387efba486653ef3349c248a57989ac3cc084c190"
+  }
+]
