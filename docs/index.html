@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="dataset.css?v=5f8a833568a9">
   <script src="samples.js?v=85b7c8e731db" defer></script>
   <script src="overlap-samples.js?v=91839081cc70" defer></script>
-  <script src="audiocaps-samples.js?v=31dcec84f4e2" defer></script>
-  <script src="app.js?v=ea87470b5212" defer></script>
+  <script src="audiocaps-samples.js?v=20260923" defer></script>
+  <script src="app.js?v=20260923" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -30,21 +30,19 @@
 
     <section class="paper-abstract" id="abstract" aria-labelledby="abstract-title"><div class="wrap narrow">
       <h2 id="abstract-title">Abstract</h2>
-      <p>Recent advances in text-to-audio (TTA) generation have enabled more precise control over the timing of individual sound events. However, generating events with overlapping time intervals can result in inaccurate event boundaries, missing events, or sounds that do not match the requested events. To address these problems, we propose SATAG, Superposition-Aware Temporal Audio Generation. SATAG detects temporal overlap and uses a temporally controllable audio generation network to generate event-specific waveforms. It then adjusts their relative amplitudes, combines them through waveform-domain superposition, and applies peak normalization to the final mixture. Quantitative evaluation shows that SATAG reduces onset and offset errors for detected events under overlapping conditions compared with the underlying DegDiT model. Subjective evaluation also indicates improved audio quality and temporal alignment. Demo page is available through our GitHub repository.</p>
+      <p>Recent advances in text-to-audio (TTA) generation have enabled more precise control over the timing of individual sound events. However, generating events with overlapping time intervals can result in inaccurate event boundaries, missing events, or sounds that do not match the requested events. We attribute these problems to the lack of explicit modeling of acoustic superposition when multiple events overlap. To address these problems, we propose SATAG, Superposition-Aware Temporal Audio Generation. SATAG detects temporal overlap and uses a temporally controllable audio generation network to generate event-specific waveforms. It then adjusts their relative amplitudes, combines them through waveform-domain superposition, and applies peak normalization to the final mixture. Quantitative evaluation shows that SATAG reduces onset and offset errors for detected events under overlapping conditions compared with existing temporally controllable TTA models. Subjective evaluation further shows that SATAG improves audio quality MOS from 3.250 to 4.005 and temporal alignment MOS from 3.300 to 4.305 compared with DegDiT.</p>
     </div></section>
 
     <section class="figure-examples wrap" id="examples" aria-labelledby="examples-title">
       <h2 id="examples-title">Fig. 1 Audio Examples</h2>
       <p class="figure-intro">Listen to the examples in Fig. 1. Each row compares the same event pair across non-overlapping DegDiT, overlapping DegDiT, and overlapping SATAG outputs.</p>
-      <p class="figure-listening-note">Headphones recommended. Playing an example pauses the other audio.</p>
+      <p class="figure-listening-note">Playing an example pauses the other audio.</p>
       <div id="figure-grid"></div>
-      <p class="figure-caption"><strong>Figure 1.</strong> DegDiT (a–d) and SATAG (e–f). Each player shows the requested event intervals. Panels (c) and (e), and panels (d) and (f), share the same timing conditions. Click a mel spectrogram to enlarge it.</p>
-      <p class="figure-source-note">These figure clips are silenced outside the union of the requested event intervals.</p>
     </section>
 
     <section class="overlap-section" id="comparison" aria-labelledby="comparison-title"><div class="overlap-wrap">
       <h2 id="comparison-title">Comparison Across Overlap Ratios</h2>
-      <p class="overlap-intro">Nine event pairs, each under five conditions. Compare DegDiT and SATAG at the same overlap ratio with identical requested event intervals.</p>
+      <p class="overlap-intro">Compare DegDiT and SATAG at the same overlap ratio with identical requested event intervals.</p>
       <p class="overlap-reference">The 0% column is the shared DegDiT baseline: SATAG retains the original generation procedure when events do not overlap.</p>
       <div id="comparison-content"></div>
       <p class="overlap-caption">A and B follow the event order in each row. Colored bars show the requested intervals on a 0–10 s timeline. Click a spectrogram to enlarge it; playing a sample pauses any other audio.</p>
@@ -53,15 +51,13 @@
     <section class="amplitude-section" id="amplitude" aria-labelledby="amplitude-title"><div class="wrap">
       <h2 id="amplitude-title">Relative Amplitude Control</h2>
       <p class="amplitude-intro">Adjust each event's contribution while keeping its timing fixed. Compare the same source pair with different relative amplitude weights.</p>
-      <p class="amplitude-note">Both events fully overlap from 2.24 to 6.97 seconds in every example.</p>
       <div id="mixing-content"></div>
       <p class="amplitude-caption">The 7:3 and 3:7 conditions apply main/background weights after per-source peak normalization. These are waveform-amplitude weights, not perceived loudness ratios. Raw summation is an unnormalized reference, not the final SATAG output.</p>
     </div></section>
 
     <section class="dataset-section" id="dataset" aria-labelledby="dataset-title"><div class="wrap section">
       <h2 id="dataset-title">AudioCapsT Samples</h2>
-      <p class="dataset-intro">AudioCapsT extracts sound events from AudioCaps captions and automatically estimates their onset and offset times with SpotSound. Listen to the original dataset audio alongside its caption and event annotations.</p>
-      <p class="dataset-selection">Five samples randomly drawn from examples rated accurate with no reported errors in human evaluation.</p>
+      <p class="dataset-intro">AudioCapsT extracts sound events from AudioCaps captions and automatically estimates their onset and offset times with SpotSound.</p>
       <div class="dataset-grid" id="dataset-grid"></div>
       <p class="caption">These are original AudioCaps recordings. Colored bars show automatically estimated event intervals in seconds, reviewed in human evaluation.</p>
     </div></section>

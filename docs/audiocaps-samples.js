@@ -118,41 +118,5 @@ window.SATAG_AUDIOCAPS_SAMPLES = [
       }
     ],
     "audio": "assets/audiocapst-0j94maKQDLY.mp3"
-  },
-  {
-    "id": "8nOUvamr2PE",
-    "duration": 10,
-    "caption": "A large motor vehicle engine is running, a group of people are talking, and an adult female speaks in the foreground",
-    "spot_caption": "Large Motor Vehicle Engine Running from 0.0 to 10.0 and Group People Talking from 0.0 to 10.0 and Adult Female Speaking from 0.0 to 10.0",
-    "events": [
-      {
-        "name": "Large Motor Vehicle Engine Running",
-        "intervals": [
-          [
-            0.0,
-            10.0
-          ]
-        ]
-      },
-      {
-        "name": "Group People Talking",
-        "intervals": [
-          [
-            0.0,
-            10.0
-          ]
-        ]
-      },
-      {
-        "name": "Adult Female Speaking",
-        "intervals": [
-          [
-            0.0,
-            10.0
-          ]
-        ]
-      }
-    ],
-    "audio": "assets/audiocapst-8nOUvamr2PE.mp3"
   }
 ];
