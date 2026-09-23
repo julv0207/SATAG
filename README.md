@@ -7,7 +7,6 @@ Sogang University, Seoul, Republic of Korea
 
 [![Project Page](docs/assets/project-page.svg)](https://julv0207.github.io/SATAG/)
 
-[**Paper (Draft)**](https://julv0207.github.io/SATAG/assets/SATAG-draft.pdf) · [**Installation**](#installation) · [**Inference**](#inference)
 
 </div>
 
