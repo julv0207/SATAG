@@ -15,7 +15,7 @@ Sogang University, Seoul, Republic of Korea
 **SATAG** is a training-free inference framework for temporally controllable text-to-audio generation. Given sound descriptions and event-level timestamps, SATAG handles overlapping events through acoustic superposition and supports explicit control over their relative contributions to the generated mixture. It requires no additional training or parameter updates to the underlying model.
 
 <p align="center">
-  <img src="docs/assets/satag-framework.png" alt="SATAG framework: overlap detection, event-specific generation, and waveform-domain superposition." width="900">
+  <img src="docs/assets/architecture.png" alt="SATAG framework: overlap detection, event-specific generation, and waveform-domain superposition." width="900">
 </p>
 
 For non-overlapping events, SATAG retains the original generation procedure. For overlapping events, it generates event-specific waveforms and combines them in the waveform domain. This repository provides the SATAG implementation with DegDiT, the DegDiT training code, and AudioCapsT annotations.
